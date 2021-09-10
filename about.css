@@ -1,0 +1,77 @@
+body,html {
+    width: auto;
+    height: 100%;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    overflow-x: hidden;
+}
+.big-Titletext {
+    position: relative;
+    text-align: left;
+    height: 20%;
+    top: 4%;
+    left: 3%;
+    color: #272926;
+}
+
+.headers {
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+.subtext {
+    position: relative;
+    font-size: 17px;
+}
+
+.center-img {
+    position: relative;
+    text-align: center;
+    top: 12%;
+}
+.center-img img {
+    width: 30%;
+    height: auto;
+    border-radius: 7%;
+}
+
+.button-next {
+    position: absolute;
+    left: 80%;
+    top: 55%;
+}
+
+#next{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+#next img {
+    width: 17%;
+    height: 17%;
+}
+
+#button-project {
+    position: relative;
+    left: 43%;
+    color: #272926;
+}
+
+.bottom {
+    position: relative;
+    top: 23.8%;
+    right: 9%;
+}
+
+#home {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    bottom: 5%;
+}
+#home img {
+    width: 9%;
+    height: 9%;
+}

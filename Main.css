@@ -1,0 +1,54 @@
+body,html {
+    width: auto;
+    height: 100%;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    overflow-x: hidden;
+    background-image: url(assets/TeapotAnimateNtext.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.big-Titletext {
+    position: relative;
+    text-align: center;
+    height: 40%;
+    top: 13%;
+    color: #F1FFF8;
+}
+
+.headers {
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    text-shadow: 0px 4px 8px rgba(39, 47, 35, 0.30);
+}
+
+.subtext {
+    position: relative;
+    font-size: 17px;
+}
+
+.button-next {
+    position: absolute;
+    left: 80%;
+    top: 55%;
+}
+
+.next{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.next img {
+    width: 17%;
+    height: 17%;
+}
+
+#button-project {
+    position: relative;
+    left: 42%;
+    color: #fff4f1;
+}
