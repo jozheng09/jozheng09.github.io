@@ -12,21 +12,51 @@
 
     <body>
         <div class = "big-Titletext">
-            <h1 class = "headers">About me!</h1>
-            <p1 class = "subtext">Hi, I’m Joanna<br>
-                I am a third-year student at the Georgia Institute of Technology studying Computational Media with a focus on Interaction Design and People.<br>
-                  I really enjoy learning new aspects about design and art in technology and hope to go into UI/UX in the future!
-                  <br>In my free time, I enjoy creating illustrations, running my small Etsy shop, streaming, and playing with my cat :)</p1>
+            <h1 class = "headers">About me</h1>
         </div>
-        <div class = "center-img">
-            <img src="assets/1.PNG" alt="it me">
+        <div class = "grid-container">
+            <div class = "grid-child text">
+                <p1 class = "subtext"><b>Hi, I’m Joanna!</b><br>
+                    <br>
+                    I am a third-year student at the Georgia Institute of Technology studying Computational Media with a focus on Interaction Design and People.
+                      I really enjoy learning new aspects about design and art in technology and hope to go into UI/UX in the future! <br>
+                      <br>
+                      In my free time, I enjoy creating illustrations, running my small Etsy shop, streaming, and playing with my cat :)</p1>
+            </div>
+            <div class = "grid-child image">
+                <div class = "center-img">
+                    <img src="assets/PortraitC.jpg" alt="it me">
+                </div>
+            </div>
         </div>
-        <div class = "button-next">
-            <button id ="next" onclick="window.location.href='index.html'"><img src="assets/rightB.png" alt="Next"></button>
-            <p class = "subtext" id = "button-project">Home</p>
+        <div class = "container-spacer">
         </div>
-        <div class = "bottom">
-            <button id = "home" onclick="window.location.href='index.html'"><img src="assets/home (1).png" alt="home"></button>
+        <div class = "contact-section"> 
+            <p1 class = "subtext-c"><b>Contact me</b></p1> <br>
+            <p2 class = "contact-info">Email: zhgjoanna@gmail.com<br>
+            <p2 class = "contact-info">LinkedIn:<a href="https://www.linkedin.com/in/joannazhg/">JoannaZhg</a></p2>
         </div>
+        
+        <input type="checkbox" id="ham-menu">
+        <label for="ham-menu">
+        <div class="hide-des">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+        </div>
+    
+        </label>
+        <div class="full-page-green"></div>
+        <div class="ham-menu">
+        <ul class="centre-text bold-text">
+            <li>Home</li>
+            <li>Projects</li>
+            <li>Art</li>
+            <li>About Me</li>
+    
+        </ul>
     </body>
 </html>
