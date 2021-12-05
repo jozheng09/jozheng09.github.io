@@ -4,12 +4,7 @@ body,html {
     font-family: 'Montserrat';
     font-size: 22px;
     overflow-x: hidden;
-    background-image: url(assets/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: transparent;
 }
-
 .big-Titletext {
     position: relative;
     text-align: center;
@@ -21,33 +16,14 @@ body,html {
 .headers {
     font-style: normal;
     font-weight: normal;
-    text-decoration: underline;
     letter-spacing: 0.05em;
 }
 
-.artGal {
-  position: relative;
-  text-align: center;
-  left: 25.5%;
-}
-div.gallery {
-  text-align: center;
-  margin: 5px;
-  float: left;
-  width: 50%;
-  height: auto;
+.subtext {
+    position: relative;
+    font-size: 17px;
 }
 
-div.gallery img {
-  width: 70%;
-  height: auto;
-  border: solid rgb(66, 78, 65) 5px;
-}
-
-div.desc {
-  padding: 10px;
-  text-align: center;
-}
 
 :root {
     --home-bg-color: #f2f3ee;
