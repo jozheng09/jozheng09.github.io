@@ -18,32 +18,55 @@ body,html {
     font-weight: normal;
     letter-spacing: 0.05em;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0.5%;
-}
 
 .subtext {
-  position: relative;
-  text-align: right;
-  top: 10%;
-  right: 13%;
-  font-size: 17px;
+    position: relative;
+    font-size: 17px;
 }
 
 .center-img {
-  position: relative;
-  text-align: left;
-  left: 10%;
-  top: 10%;
-}
-.center-img img {
-  width: 60%;
-  height: auto;
-  border-radius: 7%;
+    position: relative;
+    text-align: center;
 }
 
+.button-next {
+    position: absolute;
+    left: 80%;
+    top: 55%;
+}
+
+#next{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+#next img {
+    width: 17%;
+    height: 17%;
+}
+
+#button-project {
+    position: relative;
+    left: 47%;
+    color: #272926;
+}
+
+.bottom {
+    position: relative;
+    top: 16%;
+    right: 9%;
+}
+
+#home {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+#home img {
+    width: 9%;
+    height: 9%;
+}
 :root {
     --home-bg-color: #f2f3ee;
     --menu-bg-color: #cbcbc2;
